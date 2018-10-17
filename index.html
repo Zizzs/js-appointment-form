@@ -25,11 +25,15 @@
 
       <div class='form-group'>
         <label for="dateInput">Enter your date.</label>
-        <input id="dateInput" class="form-control" type="text">
+        <input id="dateInput" class="form-control" type="date">
       </div>
       <div class='form-group'>
         <label for="timesInput">Enter your times.</label>
         <input id="timesInput" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="colorInput">What is your favorite color?</label>
+        <input id="colorInput" class="form-control" type="color">
       </div>
     </form>
 
@@ -41,12 +45,17 @@
         <h2>Information</h2>
       </div>
       <div class="modal-body">
-        <p>
-          <span class="modalName"></span><br>
-          <span class="modalDescription"></span><br>
-          <span class="modalDate"></span><br>
-          <span class="modalTimes"></span><br>
-        </p>
+        <div>
+          <div>Name: </div><span class="modalName"></span><br>
+          <br>
+          <div>Description: </div><span class="modalDescription"></span><br>
+          <br>
+          <div>Date: </div><span class="modalDate"></span><br>
+          <br>
+          <div>Times: </div><span class="modalTimes"></span><br>
+          <br>
+          <div>Favorite Color: </div><span class="modalColor"></span><br>
+        </div>
       </div>
     </div>
   </div>

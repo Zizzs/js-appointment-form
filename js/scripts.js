@@ -35,6 +35,12 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  $("form#makeAppointment").submit(function(event) {
+    var colorTemp = $("input#colorInput").val();
+    $(".modalColor").text(colorTemp);
+    event.preventDefault();
+  });
+
   btn.onclick = function() {
     modal.style.display = "block";
   }
